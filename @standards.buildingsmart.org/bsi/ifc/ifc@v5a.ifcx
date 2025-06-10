@@ -1,0 +1,201 @@
+{
+  "header": {
+    "version": "ifcx_alpha",
+    "author": "authorname",
+    "timestamp": "time string"
+  },
+  "using": [],
+  "schemas": {
+    "bsi::ifc::presentation::diffuseColor": {
+      "value": {
+        "dataType": "Array",
+        "arrayRestrictions": {
+          "value": {
+            "dataType": "Real"
+          }
+        }
+      }
+    },
+    "bsi::ifc::presentation::opacity": {
+      "value": {
+        "dataType": "Real"
+      }
+    },
+    "bsi::ifc::class": {
+      "value": {
+        "dataType": "Object",
+        "objectRestrictions": {
+          "values": {
+            "code": {
+              "dataType": "String"
+            },
+            "uri": {
+              "dataType": "String"
+            }
+          }
+        }
+      }
+    },
+    "bsi::ifc::spaceBoundary": {
+      "value": {
+        "dataType": "Object",
+        "objectRestrictions": {
+          "values": {
+            "relatedelement": {
+              "dataType": "Object",
+              "objectRestrictions": {
+                "values": {
+                  "ref": {
+                    "dataType": "String"
+                  }
+                }
+              }
+            },
+            "relatingspace": {
+              "dataType": "Object",
+              "objectRestrictions": {
+                "values": {
+                  "ref": {
+                    "dataType": "String"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "bsi::ifc::material": {
+      "value": {
+        "dataType": "Object",
+        "objectRestrictions": {
+          "values": {
+            "code": {
+              "dataType": "String"
+            },
+            "uri": {
+              "dataType": "String"
+            }
+          }
+        }
+      }
+    },
+    "bsi::ifc::alignment": {
+      "value": {
+        "dataType": "Object",
+        "objectRestrictions": {
+          "values": {
+            "segments": {
+              "dataType": "Array",
+              "arrayRestrictions": {
+                "value": {
+                  "dataType": "Object",
+                  "objectRestrictions": {
+                    "values": {
+                      "ref": {
+                        "dataType": "String"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "bsi::ifc::alignmenthorizontalsegment": {
+      "value": {
+        "dataType": "Object",
+        "objectRestrictions": {
+          "values": {
+            "SegmentLength": {
+              "dataType": "Real"
+            },
+            "EndRadiusOfCurvature": {
+              "dataType": "Real"
+            },
+            "PredefinedType": {
+              "dataType": "String"
+            },
+            "StartRadiusOfCurvature": {
+              "dataType": "Real"
+            },
+            "StartPoint": {
+              "dataType": "Array",
+              "arrayRestrictions": {
+                "value": {
+                  "dataType": "Real"
+                }
+              }
+            },
+            "StartDirection": {
+              "dataType": "Real"
+            }
+          }
+        }
+      }
+    },
+    "bsi::ifc::alignmentverticalsegment": {
+      "value": {
+        "dataType": "Object",
+        "objectRestrictions": {
+          "values": {
+            "HorizontalLength": {
+              "dataType": "Real"
+            },
+            "RadiusOfCurvature": {
+              "dataType": "Real"
+            },
+            "EndGradient": {
+              "dataType": "Real"
+            },
+            "StartDistAlong": {
+              "dataType": "Real"
+            },
+            "PredefinedType": {
+              "dataType": "String"
+            },
+            "StartGradient": {
+              "dataType": "Real"
+            },
+            "StartHeight": {
+              "dataType": "Real"
+            }
+          }
+        }
+      }
+    },
+    "bsi::ifc::alignmentcantsegment": {
+      "value": {
+        "dataType": "Object",
+        "objectRestrictions": {
+          "values": {
+            "HorizontalLength": {
+              "dataType": "Real"
+            },
+            "EndCantLeft": {
+              "dataType": "Real"
+            },
+            "StartDistAlong": {
+              "dataType": "Real"
+            },
+            "PredefinedType": {
+              "dataType": "String"
+            },
+            "StartCantRight": {
+              "dataType": "Real"
+            },
+            "StartCantLeft": {
+              "dataType": "Real"
+            },
+            "EndCantRight": {
+              "dataType": "Real"
+            }
+          }
+        }
+      }
+    }
+  },
+  "data": []
+}

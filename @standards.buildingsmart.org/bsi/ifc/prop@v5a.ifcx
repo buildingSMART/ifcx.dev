@@ -1,0 +1,33 @@
+{
+  "header": {
+    "version": "ifcx_alpha",
+    "author": "authorname",
+    "timestamp": "time string"
+  },
+  "using": [],
+  "schemas": {
+    "bsi::ifc::prop::isexternal": {
+      "value": {
+        "dataType": "Boolean"
+      }
+    },
+    "bsi::ifc::prop::volume": {
+      "value": {
+        "dataType": "Real",
+        "quantityKind": "Volume"
+      }
+    },
+    "bsi::ifc::prop::height": {
+      "value": {
+        "dataType": "Real",
+        "quantityKind": "Length"
+      }
+    },
+    "bsi::ifc::prop::station": {
+      "value": {
+        "dataType": "Real"
+      }
+    }
+  },
+  "data": [],
+}

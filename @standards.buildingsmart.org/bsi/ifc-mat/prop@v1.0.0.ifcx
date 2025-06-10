@@ -1,0 +1,53 @@
+{
+  "header": {
+    "version": "ifcx_alpha",
+    "author": "authorname",
+    "timestamp": "time string"
+  },
+  "using": [],
+  "schemas": {
+    "bsi::ifc-mat::prop::strengthClass": {
+      "value": {
+        "dataType": "String"
+      }
+    },
+    "bsi::ifc-mat::prop::moistureContent": {
+      "value": {
+        "dataType": "Real"
+      }
+    },
+    "bsi::ifc-mat::prop::massDensity": {
+      "value": {
+        "dataType": "Real"
+      }
+    },
+    "bsi::ifc-mat::prop::GWP": {
+      "value": {
+        "dataType": "Object",
+        "objectRestrictions": {
+          "values": {
+            "A1-A3": {
+              "dataType": "Real"
+            },
+            "A4": {
+              "dataType": "Real"
+            },
+            "A5": {
+              "dataType": "Real"
+            },
+            "C2": {
+              "dataType": "Real"
+            },
+            "C3": {
+              "dataType": "Real"
+            },
+            "D": {
+              "dataType": "Real"
+            }
+          }
+        }
+      }
+    }
+  },
+  "data": []
+}
