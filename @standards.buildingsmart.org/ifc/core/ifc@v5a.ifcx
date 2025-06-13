@@ -4,7 +4,7 @@
     "author": "authorname",
     "timestamp": "time string"
   },
-  "using": [],
+  "imports": [],
   "schemas": {
     "bsi::ifc::presentation::diffuseColor": {
       "value": {
