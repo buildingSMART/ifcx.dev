@@ -195,6 +195,45 @@
           }
         }
       }
+    },
+    "bsi::ifc::system::connectsto": {
+      "value": {
+        "dataType": "Array",
+        "arrayRestrictions": {
+          "value": {
+            "dataType": "Object",
+            "objectRestrictions": {
+              "values": {
+                "ref": {
+                  "dataType": "String"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "bsi::ifc::system::flowdirection": {
+      "value": {
+        "dataType": "String"
+      }
+    },
+    "bsi::ifc::system::partofsystem": {
+      "value": {
+        "dataType": "Array",
+        "arrayRestrictions": {
+          "value": {
+            "dataType": "Object",
+            "objectRestrictions": {
+              "values": {
+                "ref": {
+                  "dataType": "String"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "data": []
