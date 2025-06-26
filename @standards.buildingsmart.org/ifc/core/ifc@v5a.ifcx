@@ -148,7 +148,8 @@
               "dataType": "Real"
             },
             "RadiusOfCurvature": {
-              "dataType": "Real"
+              "dataType": "Real",
+              "optional": true
             },
             "EndGradient": {
               "dataType": "Real"
