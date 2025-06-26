@@ -28,6 +28,11 @@
         "dataType": "Real"
       }
     }
+    "bsi::ifc::prop::TypeName": {
+      "value": {
+        "dataType": "String"
+      }
+    }
   },
   "data": []
 }
