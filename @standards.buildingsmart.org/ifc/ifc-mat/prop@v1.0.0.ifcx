@@ -6,17 +6,17 @@
   },
   "imports": [],
   "schemas": {
-    "bsi::ifc-mat::prop::strengthClass": {
+    "bsi::ifc-mat::prop::StrengthClass": {
       "value": {
         "dataType": "String"
       }
     },
-    "bsi::ifc-mat::prop::moistureContent": {
+    "bsi::ifc-mat::prop::MoistureContent": {
       "value": {
         "dataType": "Real"
       }
     },
-    "bsi::ifc-mat::prop::massDensity": {
+    "bsi::ifc-mat::prop::MassDensity": {
       "value": {
         "dataType": "Real"
       }

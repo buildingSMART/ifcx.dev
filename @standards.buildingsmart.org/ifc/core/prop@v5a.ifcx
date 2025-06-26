@@ -6,24 +6,24 @@
   },
   "imports": [],
   "schemas": {
-    "bsi::ifc::prop::isexternal": {
+    "bsi::ifc::prop::IsExternal": {
       "value": {
         "dataType": "Boolean"
       }
     },
-    "bsi::ifc::prop::volume": {
+    "bsi::ifc::prop::Volume": {
       "value": {
         "dataType": "Real",
         "quantityKind": "Volume"
       }
     },
-    "bsi::ifc::prop::height": {
+    "bsi::ifc::prop::Height": {
       "value": {
         "dataType": "Real",
         "quantityKind": "Length"
       }
     },
-    "bsi::ifc::prop::station": {
+    "bsi::ifc::prop::Station": {
       "value": {
         "dataType": "Real"
       }
