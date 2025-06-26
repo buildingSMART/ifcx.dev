@@ -115,8 +115,11 @@
             "EndRadiusOfCurvature": {
               "dataType": "Real"
             },
-            "PredefinedType": {
-              "dataType": "String"
+            "GeometryType": {
+              "dataType": "Enum",
+              "enumRestrictions": {
+                "options": ["CLOTHOID", "LINE", "CONSTANTGRADIENT", "CIRCULARARC", "CONSTANTCANT", "LINEARTRANSITION"]
+              }
             },
             "StartRadiusOfCurvature": {
               "dataType": "Real"
@@ -153,8 +156,11 @@
             "StartDistAlong": {
               "dataType": "Real"
             },
-            "PredefinedType": {
-              "dataType": "String"
+            "GeometryType": {
+              "dataType": "Enum",
+              "enumRestrictions": {
+                "options": ["CLOTHOID", "LINE", "CONSTANTGRADIENT", "CIRCULARARC", "CONSTANTCANT", "LINEARTRANSITION"]
+              }
             },
             "StartGradient": {
               "dataType": "Real"
@@ -180,8 +186,11 @@
             "StartDistAlong": {
               "dataType": "Real"
             },
-            "PredefinedType": {
-              "dataType": "String"
+            "GeometryType": {
+              "dataType": "Enum",
+              "enumRestrictions": {
+                "options": ["CLOTHOID", "LINE", "CONSTANTGRADIENT", "CIRCULARARC", "CONSTANTCANT", "LINEARTRANSITION"]
+              }
             },
             "StartCantRight": {
               "dataType": "Real"
