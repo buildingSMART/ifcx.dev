@@ -1,0 +1,26 @@
+{
+  "header": {
+    "version": "1.0.0",
+    "author": "buildingSMART International",
+    "timestamp": "2025-06-27"
+  },
+  "imports": [],
+  "schemas": {
+    "bsi::ifc-infra::prop::StartDistanceAlong": {
+      "value": {
+        "dataType": "Real"
+      }
+    },
+     "bsi::ifc-infra::prop::EndMeter": {
+      "value": {
+        "dataType": "Real"
+      }
+    },
+    "bsi::ifc-infra::prop::ExcavationDate": {
+      "value": {
+        "dataType": "DateTime"
+      }
+    }
+  },
+  "data": []
+}
