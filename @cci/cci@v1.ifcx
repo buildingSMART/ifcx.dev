@@ -1,0 +1,27 @@
+{
+  "header": {
+    "id": "https://identifier.buildingsmart.org/uri/molio/cciconstruction/1.0",
+    "version": "ifcx_alpha",
+    "author": "authorname",
+    "timestamp": "time string"
+  },
+  "imports": [],
+  "schemas": {
+    "CCIConstruction::class": {
+      "value": {
+        "dataType": "Object",
+        "objectRestrictions": {
+          "values": {
+            "code": {
+              "dataType": "String"
+            },
+            "uri": {
+              "dataType": "String"
+            }
+          }
+        }
+      }
+    }
+  },
+  "data": []
+}
