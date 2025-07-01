@@ -16,6 +16,11 @@
         "dataType": "String"
       }
     },
+    "bsi::ifc::prop::CompositionType": {
+      "value": {
+        "dataType": "String"
+      }
+    },
     "bsi::ifc::prop::CrossSectionArea": {
       "value": {
         "dataType": "Real",
@@ -26,6 +31,21 @@
       "value": {
         "dataType": "Real",
         "quantityKind": "Length"
+      }
+    },
+    "bsi::ifc::prop::Description": {
+      "value": {
+        "dataType": "String"
+      }
+    },
+    "bsi::ifc::prop::ElevationOfRefHeight": {
+      "value": {
+        "dataType": "Real"
+      }
+    },
+    "bsi::ifc::prop::ElevationOfTerrain": {
+      "value": {
+        "dataType": "Real"
       }
     },
     "bsi::ifc::prop::FireRating": {
@@ -42,26 +62,6 @@
     "bsi::ifc::prop::IsExternal": {
       "value": {
         "dataType": "Boolean"
-      }
-    },
-    "bsi::ifc::prop::CompositionType": {
-      "value": {
-        "dataType": "String"
-      }
-    },
-    "bsi::ifc::prop::Description": {
-      "value": {
-        "dataType": "String"
-      }
-    },
-    "bsi::ifc::prop::ElevationOfRefHeight": {
-      "value": {
-        "dataType": "Real"
-      }
-    },
-    "bsi::ifc::prop::ElevationOfTerrain": {
-      "value": {
-        "dataType": "Real"
       }
     },
     "bsi::ifc::prop::Length": {
