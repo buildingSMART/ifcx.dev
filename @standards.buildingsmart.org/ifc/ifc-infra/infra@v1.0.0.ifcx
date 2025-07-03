@@ -1,8 +1,10 @@
 {
   "header": {
-    "version": "1.0.0",
+    "id": "infra",
+    "ifcxVersion": "ifcx_alpha",
+    "dataVersion": "1.0.0",
     "author": "buildingSMART International",
-    "timestamp": "2025-06-27"
+    "timestamp": "2025-06-01"
   },
   "imports": [],
   "schemas": {
