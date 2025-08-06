@@ -1,8 +1,10 @@
 {
   "header": {
-    "version": "ifcx_alpha",
-    "author": "authorname",
-    "timestamp": "time string"
+    "id": "usd",
+    "ifcxVersion": "ifcx_alpha",
+    "dataVersion": "1.0.0",
+    "author": "OpenUSD",
+    "timestamp": "2025-06-01"
   },
   "imports": [],
   "schemas": {
