@@ -34,6 +34,11 @@
       "value": {
         "dataType": "String"
       }
+    },
+    "bsi::ifc::prop::StartDistanceAlong": {
+      "value": {
+        "dataType": "Real"
+      }
     }
   },
   "data": []
