@@ -1,0 +1,28 @@
+{
+  "header": {
+    "id": "https://identifier.buildingsmart.org/uri/bs-agri/fruitvegs@1.6",
+    "dataVersion": "1.0.0",
+    "ifcxVersion": "ifcx_alpha",
+    "author": "bSDD Agri demo company",
+    "timestamp": "2022-12-26T00:00:00Z"
+  },
+  "imports": [],
+  "schemas": {
+    "Fruitandvegetables::class": {
+      "value": {
+        "dataType": "Object",
+        "objectRestrictions": {
+          "values": {
+            "code": {
+              "dataType": "String"
+            },
+            "uri": {
+              "dataType": "String"
+            }
+          }
+        }
+      }
+    }
+  },
+  "data": []
+}
