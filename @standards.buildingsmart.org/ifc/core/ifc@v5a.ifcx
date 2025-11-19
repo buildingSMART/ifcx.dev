@@ -246,6 +246,23 @@
           }
         }
       }
+    },
+    "bsi::ifc::system::servicesfacility": {
+      "value": {
+        "dataType": "Array",
+        "arrayRestrictions": {
+          "value": {
+            "dataType": "Object",
+            "objectRestrictions": {
+              "values": {
+                "ref": {
+                  "dataType": "String"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "data": []
